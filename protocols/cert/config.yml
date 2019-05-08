@@ -1,0 +1,9 @@
+---
+name: cert
+version: 0
+namespace: CoreTx
+description: create a new cert
+proto: cert.proto
+type_urls:
+  fg:x:cert: ForgeAbi.CertInfo
+sources: [cert.ex]

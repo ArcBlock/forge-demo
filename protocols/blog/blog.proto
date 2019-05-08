@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+package forge_abi;
+
+import "google/protobuf/any.proto";
+
+message BlogInfo {
+  string title = 1;
+  string content = 2;
+  repeated string tags = 3;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+package forge_abi;
+
+import "google/protobuf/timestamp.proto";
+
+message CertInfo {
+  string no = 1;
+  string title = 2;
+  string signer = 3;
+  google.protobuf.Timestamp expired_at = 4;
+  bytes signature = 5;
+}

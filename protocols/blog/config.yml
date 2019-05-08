@@ -1,0 +1,9 @@
+---
+name: create_post
+version: 0
+namespace: CoreTx
+description: create a new blog post
+proto: blog.proto
+type_urls:
+  fg:x:post: ForgeAbi.BlogInfo
+sources: [blog.ex]
